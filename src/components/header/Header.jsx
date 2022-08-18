@@ -1,4 +1,3 @@
-import React from 'react';
 import { Button } from '../button/Button';
 
 export const Header = () => {
@@ -10,7 +9,7 @@ export const Header = () => {
                     children='Змінити тему'
                     className='btn-info'
                     id='theme'
-                    onClick={() => { }}
+                    onClick={() => { document.body.classList.toggle('dark') }}
                 />
             </h1>
             <hr />
